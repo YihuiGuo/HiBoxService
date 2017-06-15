@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "HiBoxService", "HiBoxService\HiBoxService.ccproj", "{3D6B5767-F1E6-44DE-B9E2-65EF89A6BE2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiBoxRole", "HiBoxRole\HiBoxRole.csproj", "{C2568B07-CEAF-47D4-AB3A-D4F0820AEE3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{F9FD6991-C82E-49CE-AE0E-F40FF3395A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureConsoleTest", "InfrastructureConsoleTest\InfrastructureConsoleTest.csproj", "{B98C596C-6142-448A-9698-9443CD9F789A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D6B5767-F1E6-44DE-B9E2-65EF89A6BE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B5767-F1E6-44DE-B9E2-65EF89A6BE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B5767-F1E6-44DE-B9E2-65EF89A6BE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B5767-F1E6-44DE-B9E2-65EF89A6BE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2568B07-CEAF-47D4-AB3A-D4F0820AEE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2568B07-CEAF-47D4-AB3A-D4F0820AEE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2568B07-CEAF-47D4-AB3A-D4F0820AEE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2568B07-CEAF-47D4-AB3A-D4F0820AEE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FD6991-C82E-49CE-AE0E-F40FF3395A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FD6991-C82E-49CE-AE0E-F40FF3395A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FD6991-C82E-49CE-AE0E-F40FF3395A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FD6991-C82E-49CE-AE0E-F40FF3395A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98C596C-6142-448A-9698-9443CD9F789A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98C596C-6142-448A-9698-9443CD9F789A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98C596C-6142-448A-9698-9443CD9F789A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98C596C-6142-448A-9698-9443CD9F789A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
