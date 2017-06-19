@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Infrastructure.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace Infrastructure.Entities
         public string Location { get; set; }
 
         public List<HiBoxLocker> Lockers { get; set; }
+
 
     }
 }

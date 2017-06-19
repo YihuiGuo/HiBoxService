@@ -10,6 +10,6 @@ namespace Infrastructure.Entities
     {
         public string UserId { get; set; }
 
-        public string[] UnsettledBills { get; set; }
+        public List<string> UnsettledBills { get; set; }
     }
 }

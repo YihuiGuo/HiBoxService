@@ -40,18 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants\HiBoxEnum.cs" />
     <Compile Include="DataService\IDataService.cs" />
     <Compile Include="DataService\MockDataService.cs" />
     <Compile Include="Entities\HiBoxCabinet.cs" />
     <Compile Include="Entities\HiBoxCategory.cs" />
     <Compile Include="Entities\HiBoxUser.cs" />
     <Compile Include="Entities\HiBoxLocker.cs" />
-    <Compile Include="LockerHelper.cs" />
+    <Compile Include="Entities\HiBoxBill.cs" />
+    <Compile Include="Helpers\BankHelper.cs" />
+    <Compile Include="Helpers\LockerHelper.cs" />
+    <Compile Include="Log\ILogger.cs" />
+    <Compile Include="Log\MockFileLogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Constants\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

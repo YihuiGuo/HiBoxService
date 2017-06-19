@@ -19,7 +19,7 @@ namespace Infrastructure.Entities
 
         public int AvailableItem { get; set; }
 
-        public int[] AvailableLocker { get; set; }
+        public List<int> AvailableLocker { get; set; }
 
         public string Introduction { get; set; }
 
